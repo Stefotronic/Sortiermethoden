@@ -1,4 +1,8 @@
-import BubbleSort
+from winreg import QueryValueEx
+from BubbleSort import *
+from InsertionSort import *
+from QuickSort import QuickSort
+from MergeSort import MergeSort
 
 
 class Sorting:
@@ -6,28 +10,21 @@ class Sorting:
     def __init__(self, arr) -> None:
         self.arr = arr
 
-    def BubbleSort(self):
-        n = len(self.arr)
-        swapped = False
-    
-        for i in range(n-1):
-            for j in range(0, n-i-1):
-                if self.arr[j] > arr[j + 1]:
-                    swapped = True
-                    self.arr[j], self.arr[j + 1] = self.arr[j + 1], self.arr[j]
-         
-            if not swapped:
-                return
-            
-        return self.arr
- 
 
+    def BubbleSort(self):
+        bs = BubbleSort(self.arr)
+        return bs.sort()
+ 
     def InsertionSort(self):
-        pass
+        ist = InsertionSort(self.arr)
+        return ist.sort() 
     
     def MergeSort(self):
-        pass
-
+        ms = MergeSort()
+        return ms.sort(self.arr)
+    
     def QuickSort(self):
-        pass
+        qs = QuickSort(self.arr)
+        return qs.sort()
+        
 
