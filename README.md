@@ -12,7 +12,9 @@ Du kannst dir die Objekte als ZIP-Datei herunterladen und auf deinem Rechner ent
 Ich habe das jetzt so gebaut, dass du nur noch "Main.py" starten musst. Es startet eine Konsolenanwendung, in der du danach abgefragt wirst, welche Sortiermethode du nutzen möchtest.
 Danach generiert der Code, wie im Skript, ein Array mit 1 Million Werten und sortiert diesen mit deiner gewählten Methode und gibt einen sortierten Array zurück. 
 An der Stelle brauchst dir keine Sorgen, wenn das Programm lange läuft. Bei 1 Million Werten, die er generieren und sortieren muss, dauert das einfach eine Weile.
+Alternativ kannst du auch jede der 4 Sortiermethoden einzeln starten und so die eine Methode testen. 
 
+Zu guter Letzt:
 Die "calcTime.py" ist das Skript von Herr Märtin. Die Datei kannst du ignorieren. 
 
 Ich wünsche dir Viel Spaß mit den Programmen und einen entspannten Infounterricht!
