@@ -1,27 +1,16 @@
-# Übersicht Sortiermethoden
+# Sortiermethoden 
 
 ## Infos
 
-Hey Marek,
+Dieses Projekt beschäftigt sich mit 4 vierschiedenen Sortiermethoden:
+- BubbleSort, Insertion, Merge und Quick Sorting.
 
-hier findest du alle meine Objekte, die ich zum Thema Sortierungsalgorythmen 
-erstellt habe.  
-Du kannst dir die Objekte als ZIP-Datei herunterladen und auf deinem Rechner entpacken und öffnen.
+Mit diesem kleinen Projekt werden die 4 Methoden auf den zeitlichen Aspekt verglichen. 
+Dafür wird ein Array mit 1 Millionen unterschiedlichen Zahlen generiert und dann mit einer 
+vom Benutzer gewählen Methode sortiert. Als Ergebnis bekommt ein einen Zeitwert.
 
-### WICHTIGE INFOS, BITTE LESEN!
-Ich habe das jetzt so gebaut, dass du nur noch "Main.py" starten musst. Es startet eine Konsolenanwendung, in der du danach abgefragt wirst, welche Sortiermethode du nutzen möchtest.
-Danach generiert der Code, wie im Skript, ein Array mit 1 Million Werten und sortiert diesen mit deiner gewählten Methode und gibt einen sortierten Array zurück. 
-An der Stelle brauchst dir keine Sorgen, wenn das Programm lange läuft. Bei 1 Million Werten, die er generieren und sortieren muss, dauert das einfach eine Weile.
-Alternativ kannst du auch jede der 4 Sortiermethoden einzeln starten und so die eine Methode testen. 
-
-Zu guter Letzt:
-Die "calcTime.py" ist das Skript von Herr Märtin. Die Datei kannst du ignorieren. 
-
-Ich wünsche dir Viel Spaß mit den Programmen und einen entspannten Infounterricht!
-
-
-
-Wenn du fragen hast, dann kannst du mich per Whatsapp anschreiben. 
+Viel Spaß beim Testen wünscht,
+Stefotronic
 
 ## Weiterführende Links
 
